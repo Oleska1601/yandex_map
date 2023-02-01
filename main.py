@@ -45,6 +45,8 @@ class StaticMap(QMainWindow, Ui_MainWindow):
         self.pixmap = QPixmap(self.map_file)
         self.image.setPixmap(self.pixmap)
 
+
+
     def initUI(self):
         uic.loadUI('map.ui', self)
 
